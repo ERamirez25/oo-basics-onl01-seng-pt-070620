@@ -8,4 +8,6 @@ attr_accessor :color, :size, :material, :condition
 end 
  
  def cobble()
-   self.condition = ""
+   self.condition = "new"
+   puts "Your shoe is as good as new!"
+ end 
