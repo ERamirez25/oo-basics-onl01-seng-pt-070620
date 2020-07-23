@@ -1,11 +1,11 @@
 class Shoe
-  def initialize(brand)
-    @brand = brand 
-end 
 attr_reader :brand
 attr_accessor :color, :size, :material, :condition
+ Brands = []
+ 
+ def ini
 
-end 
+end
  
  def cobble
    self.condition = "new"
