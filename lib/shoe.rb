@@ -6,3 +6,6 @@ attr_reader :brand
 attr_accessor :color, :size, :material, :condition
 
 end 
+ 
+ def cobble()
+   self.condition = ""
