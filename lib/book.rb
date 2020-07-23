@@ -20,4 +20,8 @@ def author=(author)
 end 
 end 
 
+def author
+  @author
+end
+end 
 
